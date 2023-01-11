@@ -21,6 +21,8 @@ body {
     rgba(229, 199, 206, 1) 51.3%,
     rgba(219, 199, 229, 1) 97.6%
   );
+   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*column format for price page*/
