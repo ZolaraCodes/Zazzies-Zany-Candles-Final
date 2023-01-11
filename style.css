@@ -1,0 +1,320 @@
+
+
+
+/*selects all the elements*/
+*{
+  box-sizing:border-box;
+  padding: 0;
+  font-family: "Mystery Quest", cursive;
+  font-size: 19px;
+ 
+    
+}
+ 
+
+/*body for background behind overlay*/
+body {
+  background: rgba(219, 199, 229, 1);  
+ background-image: radial-gradient(
+    circle 651px at 50.8%,
+    rgba(232, 249, 255, 1) 10.5%,
+    rgba(229, 199, 206, 1) 51.3%,
+    rgba(219, 199, 229, 1) 97.6%
+  );
+}
+
+/*column format for price page*/
+.col{
+ display: grid;
+  flex-direction:column;
+ column-gap: normal;
+  height: 100%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns:1fr 1fr;
+  color:#ff69b4;
+  text-align: center;
+  
+   
+}
+
+
+
+
+/* Zazzy banner */
+.header {
+  background: url("https://cdn.glitch.global/f9c8c2eb-32d1-4a86-981e-945a8447ae70/69B6211E-B46C-44FE-9C69-22294209D00B.png?v=1670913421813")
+    center/cover;
+  background-size: cover;
+  height: 130px;
+  width:100vh;
+
+  /* Price and Price button */
+  h1 {
+    font-family: "Mystery Quest", cursive;
+    font-weight: 700;
+    color: #ff69b4;
+    margin: 0 0 20px 0;
+    text-align: center;
+    span {
+      font-size: 12px;
+      top: -10px;
+      position: relative;
+    }
+}
+  p {
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    line-height: 25px;
+  }
+}
+
+/*Body overlay*/
+.contentOther {
+ 
+  width: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+
+
+  
+  }
+
+
+span {
+  display: flex;
+  justify-content: center;
+  color: #9400d3;
+  filter: contrast(1.75);
+}
+
+/*Price card format*/
+.card-1{
+   display:flex;
+  flex-direction:column;
+   color:#ff69b4;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "Mystery Quest", cursive;
+}
+.card-2{
+  display:flex;
+  flex-direction:column;
+  color:#ff69b4;
+box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "Mystery Quest", cursive;
+}
+.card-3{
+  display:flex;
+  flex-direction:column;
+   color:#ff69b4;
+   box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "Mystery Quest", cursive; 
+  
+}
+
+.card-4{
+  display:flex;
+  flex-direction:column;
+   color:#ff69b4;
+   box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "Mystery Quest", cursive;
+  
+}
+
+/* price color and font size price is diff color so hesitant to add w h1 and desciption*/
+.price {
+  display:flex;
+  justify-content:center;
+  color: #fe4164;
+  font-size: 22px;
+}
+
+h1,
+.description{
+  display:flex;
+  justify-content:center;
+  color:#ff69b4;
+  
+  
+}
+
+/*product image*/
+.product-image{ 
+  height:314px; 
+  width:75%;
+  margin: 0 auto;
+  padding-top: 30px;
+   
+}
+
+/* Gimme Button */
+button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #fe4164;
+  font-family: "Mystery Quest", cursive;
+  background-color:pink;
+  text-align:center;
+  cursor: pointer;
+  border-radius: 16px;
+  margin: 4px 70px;
+  width: 50%;
+  font-size: 15px;
+}
+
+/* Card Button Hover */
+button:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 1400px) {
+  .col  {
+    justify-content:center;
+    width: auto;
+    display:block; 
+    margin-left:5px;
+    
+    
+  }
+  
+}
+ 
+
+
+/*Start of signup form*/
+
+/*Sign up form box sizing*/
+#signUpForm * {
+  box-sizing: border-box;
+}
+
+/*sign up form formatting*/
+#signUpForm {
+  display: inline-block;
+  background: #ffa0a2;
+  padding: 30px 30px 0;
+  width: 300px;
+  font-size: 18px;
+  position: fixed;
+  bottom: -500px;
+  right: 30px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 12px 12px 0 0;
+}
+
+/* contact button format */
+#signUpForm .contact-button {
+  background: #ff6760;
+  border: 6px solid #ffa0a2;
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 12px;
+  color: #f0e2e0;
+  position: relative;
+  margin: -54px auto 30px;
+  display: table;
+  font-weight: bold;
+  transition: 0.1s ease-in-out;
+}
+
+/* contact us button hover */
+#signUpForm .contact-button:hover {
+  background: #ffa0a2;
+  color: #ff6760;
+  cursor: pointer;
+}
+/* signup form width*/
+#signUpForm form {
+  width: 100%;
+ 
+}
+
+/*signup form input prompts*/
+#signUpForm input,
+#signUpForm textarea {
+  width: 100%;
+  margin: 4px 0;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  text-align: center;
+  background: #f0e2e0;
+  font-size: 0.85em;
+}
+/* form arrow formatting */
+.form-arrow {
+  font-size: 0.7em;
+  position: relative;
+  display: inline-block;
+  transform-origin: center;
+  vertical-align: middle;
+  top: -2px;
+  left: 10px;
+}
+/*input area border fomatting*/
+#signUpForm input:focus,
+#signUpForm textarea:focus {
+  border: 1px solid #800080;
+  outline: none;
+}
+/* input for text area height*/
+#signUpForm textarea {
+  height: 100px;
+}
+/*Submit Button formatting*/
+#signUpForm .wpcf7-submit {
+  background: #ff6760;
+  font-family: "Mystery Quest", cursive;
+  font-weight: 500;
+  color: white;
+  box-shadow: 0px 6px 30px rgba(158, 13, 13, 0.31);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+/*Media Query for sign up form*/
+@media only screen and (max-width: 768px) {
+  #signUpForm {
+    padding: 10px 20px 0;
+    width: 300px;
+    position: fixed;
+    bottom: 0;
+    display: table;
+    right: -277px;
+    top: 30%;
+    border-radius: 12px 1 2px 0;
+    box-shadow: none;
+    transform: scale(0.8);
+    transform-origin: right;
+  }
+
+}
+  /*contact button formatting for media query*/
+  #signUpForm .contact-button {
+    position: absolute;
+    left: -15px;
+    top: 80px;
+    border-radius: 12px;
+    bottom: 0;
+    border: 5px solid #ffa0a2;
+    margin: auto 0;
+    transform-origin: left;
+    transform: rotateZ(-90deg);
+  }
+}
