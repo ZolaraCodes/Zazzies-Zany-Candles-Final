@@ -15,12 +15,7 @@
 /*body for background behind overlay*/
 body {
   background: rgba(219, 199, 229, 1);  
- background-image: radial-gradient(
-    circle 651px at 50.8%,
-    rgba(232, 249, 255, 1) 10.5%,
-    rgba(229, 199, 206, 1) 51.3%,
-    rgba(219, 199, 229, 1) 97.6%
-  );
+background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
    background-size: cover;
   background-repeat: no-repeat;
 }
