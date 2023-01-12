@@ -14,8 +14,7 @@
 
 /*body for background behind overlay*/
 body {
-  background: rgba(219, 199, 229, 1);  
-background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
    background-size: cover;
   background-repeat: no-repeat;
 }
