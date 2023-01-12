@@ -15,7 +15,7 @@
 /*body for background behind overlay*/
 body {
 background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
-   background-size: cover;
+   background-size: auto;
   background-repeat: repeat;
 }
 
